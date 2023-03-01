@@ -1,9 +1,9 @@
 package org.commonmark.internal;
 
-import org.commonmark.internal.util.Parsing;
 import org.commonmark.node.Block;
 import org.commonmark.node.FencedCodeBlock;
 import org.commonmark.parser.SourceLine;
+import org.commonmark.parser.beta.Parsing;
 import org.commonmark.parser.block.*;
 
 import static org.commonmark.internal.util.Escaping.unescapeString;

@@ -2,6 +2,8 @@ package org.commonmark.internal.inline;
 
 import org.commonmark.internal.util.AsciiMatcher;
 import org.commonmark.node.HtmlInline;
+import org.commonmark.parser.beta.Position;
+import org.commonmark.parser.beta.Scanner;
 
 /**
  * Attempt to parse inline HTML.

@@ -1,13 +1,13 @@
 package org.commonmark.ext.gfm.tables.internal;
 
 import org.commonmark.ext.gfm.tables.*;
-import org.commonmark.internal.util.Parsing;
 import org.commonmark.node.Block;
 import org.commonmark.node.Node;
 import org.commonmark.node.SourceSpan;
 import org.commonmark.parser.InlineParser;
 import org.commonmark.parser.SourceLine;
 import org.commonmark.parser.SourceLines;
+import org.commonmark.parser.beta.Parsing;
 import org.commonmark.parser.block.*;
 
 import java.util.ArrayList;

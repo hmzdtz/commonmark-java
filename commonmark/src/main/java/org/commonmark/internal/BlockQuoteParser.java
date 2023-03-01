@@ -1,8 +1,8 @@
 package org.commonmark.internal;
 
-import org.commonmark.internal.util.Parsing;
 import org.commonmark.node.Block;
 import org.commonmark.node.BlockQuote;
+import org.commonmark.parser.beta.Parsing;
 import org.commonmark.parser.block.*;
 
 public class BlockQuoteParser extends AbstractBlockParser {

@@ -1,9 +1,11 @@
 package org.commonmark.internal.inline;
 
-import org.commonmark.internal.util.Parsing;
 import org.commonmark.node.Code;
 import org.commonmark.node.Text;
 import org.commonmark.parser.SourceLines;
+import org.commonmark.parser.beta.Parsing;
+import org.commonmark.parser.beta.Position;
+import org.commonmark.parser.beta.Scanner;
 
 /**
  * Attempt to parse backticks, returning either a backtick code span or a literal sequence of backticks.

@@ -1,10 +1,10 @@
 package org.commonmark.internal;
 
-import org.commonmark.internal.util.Parsing;
 import org.commonmark.node.Block;
 import org.commonmark.node.HtmlBlock;
 import org.commonmark.node.Paragraph;
 import org.commonmark.parser.SourceLine;
+import org.commonmark.parser.beta.Parsing;
 import org.commonmark.parser.block.*;
 
 import java.util.regex.Pattern;

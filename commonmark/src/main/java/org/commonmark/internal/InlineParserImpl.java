@@ -1,14 +1,15 @@
 package org.commonmark.internal;
 
-import org.commonmark.internal.inline.Scanner;
 import org.commonmark.internal.inline.*;
 import org.commonmark.internal.util.Escaping;
 import org.commonmark.internal.util.LinkScanner;
-import org.commonmark.internal.util.Parsing;
 import org.commonmark.node.*;
 import org.commonmark.parser.InlineParser;
 import org.commonmark.parser.InlineParserContext;
 import org.commonmark.parser.SourceLines;
+import org.commonmark.parser.beta.Parsing;
+import org.commonmark.parser.beta.Position;
+import org.commonmark.parser.beta.Scanner;
 import org.commonmark.parser.delimiter.DelimiterProcessor;
 
 import java.util.*;

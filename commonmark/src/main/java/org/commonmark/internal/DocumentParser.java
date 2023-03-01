@@ -1,8 +1,8 @@
 package org.commonmark.internal;
 
-import org.commonmark.internal.util.Parsing;
 import org.commonmark.node.*;
 import org.commonmark.parser.*;
+import org.commonmark.parser.beta.Parsing;
 import org.commonmark.parser.block.*;
 import org.commonmark.parser.delimiter.DelimiterProcessor;
 

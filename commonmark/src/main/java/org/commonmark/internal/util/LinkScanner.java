@@ -1,6 +1,7 @@
 package org.commonmark.internal.util;
 
-import org.commonmark.internal.inline.Scanner;
+import org.commonmark.parser.beta.Parsing;
+import org.commonmark.parser.beta.Scanner;
 
 public class LinkScanner {
 

@@ -1,13 +1,13 @@
 package org.commonmark.internal;
 
-import org.commonmark.internal.inline.Position;
-import org.commonmark.internal.inline.Scanner;
-import org.commonmark.internal.util.Parsing;
 import org.commonmark.node.Block;
 import org.commonmark.node.Heading;
 import org.commonmark.parser.InlineParser;
 import org.commonmark.parser.SourceLine;
 import org.commonmark.parser.SourceLines;
+import org.commonmark.parser.beta.Parsing;
+import org.commonmark.parser.beta.Position;
+import org.commonmark.parser.beta.Scanner;
 import org.commonmark.parser.block.*;
 
 public class HeadingParser extends AbstractBlockParser {

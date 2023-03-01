@@ -1,4 +1,4 @@
-package org.commonmark.internal.util;
+package org.commonmark.parser.beta;
 
 public class Parsing {
 

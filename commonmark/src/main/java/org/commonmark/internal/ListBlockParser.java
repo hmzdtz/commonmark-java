@@ -1,7 +1,7 @@
 package org.commonmark.internal;
 
-import org.commonmark.internal.util.Parsing;
 import org.commonmark.node.*;
+import org.commonmark.parser.beta.Parsing;
 import org.commonmark.parser.block.*;
 
 public class ListBlockParser extends AbstractBlockParser {
