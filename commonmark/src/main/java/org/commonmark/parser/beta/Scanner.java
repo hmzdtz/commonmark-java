@@ -1,6 +1,5 @@
 package org.commonmark.parser.beta;
 
-import org.commonmark.internal.util.CharMatcher;
 import org.commonmark.node.SourceSpan;
 import org.commonmark.parser.SourceLine;
 import org.commonmark.parser.SourceLines;

@@ -1,5 +1,7 @@
 package org.commonmark.internal.util;
 
+import org.commonmark.parser.beta.CharMatcher;
+
 import java.util.BitSet;
 
 public class AsciiMatcher implements CharMatcher {
